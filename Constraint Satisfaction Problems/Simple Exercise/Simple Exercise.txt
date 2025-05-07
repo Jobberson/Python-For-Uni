@@ -1,0 +1,34 @@
+Exercício
+
+Cinco amigos vão organizar os livros de uma biblioteca, mas cada um só pode pegar um tipo específico de livro. A tarefa é descobrir quem ficou
+com qual tipo de livro baseado nas seguintes pistas:
+
+Amigos:
+● Ana, Bruno, Carlos, Daniela, Eduardo.
+
+Tipos de Livros:
+● Romance, Mistério, Ficção Científica, História, Poesia.
+
+Pistas:
+1. Ana não pegou o livro de Ficção Científica nem de História.
+2. Carlos ficou com o livro de Mistério.
+3. Bruno não ficou com o livro de Romance.
+4. Eduardo ficou com o livro de Ficção Científica.
+5. Daniela não gosta de Poesia e nem de Mistério.
+
+
+Resposta: 
+
+1.
+Ana = Romance
+Carlos = Mistério
+Bruno = História
+Eduardo = Ficção
+Daniela = Poesia (inválido)
+
+2. Válido
+Ana = Poesia
+Carlos = Mistério
+Bruno = História
+Eduardo = Ficção
+Daniela = Romance

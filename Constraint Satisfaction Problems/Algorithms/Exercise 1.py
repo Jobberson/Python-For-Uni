@@ -54,4 +54,4 @@ if solution is not None:
     print("mm de irrigacao por dia:", solution)
     print("Irrigacao total:", sum(solution), "mm")
 else:
-    print("Nenhuma solução encontrada.")
+    print("Nenhuma solucao encontrada.")

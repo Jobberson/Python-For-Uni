@@ -1,0 +1,17 @@
+Atividade
+
+Um sistema de monitoramento ambiental utiliza regras lógicas para acionar ventiladores
+em um armazém de grãos. As regras são as seguintes:
+● Se a temperatura está alta e a umidade está elevada, os ventiladores são ligados.
+● Se os ventiladores estão ligados, um alerta é enviado ao operador do sistema.
+
+Cenário: No momento, a temperatura está alta, mas a umidade está baixa.
+Com base nas regras fornecidas, explique se o alerta será enviado ao operador do
+sistema e justifique sua resposta com uma análise lógica.
+
+
+
+Resposta:
+
+temperatura alta ∧ ¬umidade elevada → ventiladores desligados
+ventiladores desligados → alerta não enviado
